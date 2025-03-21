@@ -1,0 +1,7 @@
+在index.html中加入meta标签就可以完美解决
+<meta name="referrer" content="no-referrer"> 
+
+还有一种方法就是在img标签上加referrer="no-referrer"或者rel="noreferrer"
+referrer策略是一种网络安全手段，在请求中会带有referrer
+
+如果不想加任何标签，就把图片的后缀改成jfif
